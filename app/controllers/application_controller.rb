@@ -83,9 +83,9 @@ end
 			User.find(session[:id])
 		end
 		
-		def empty_fields?
-      params[:username].empty? || params[:password].empty?
-    end
+		# def empty_fields?
+  #     params[:username].empty? || params[:password].empty?
+  #   end
 
 	end
 
